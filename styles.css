@@ -6,3 +6,124 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+.container-title{
+    margin-bottom: 20px;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    padding: 3px 3px 3px 5px;
+    outline: none;
+    background-color: rgba(255,255,255,0.2);
+    border: solid 1px white;
+    border-radius: 4px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.button-add{
+    cursor: pointer;
+    margin-left: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border:solid 1px white;
+    outline: none;
+    background-color: rgba(255,255,255,0.2);
+    color:white
+}
+.button-add:hover{
+    background-color: rgba(255,255,150,0.5);
+    color:white;
+    font-weight: bold;
+}
+.button-delete{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border:solid 1px white;
+    outline: none;
+    background-color: rgba(255,255,255,0.2);
+    color:white
+}
+.button-delete:hover{
+    background-color: rgba(255,255,150,0.5);
+    color:white;
+    font-weight: bold;
+}
+.container-table{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: center;
+    display:none;
+    position: absolute;
+    border-radius: 20px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-delete-button-ok{
+    cursor: pointer;
+    width: 80px;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #16975d 100%);
+    border: solid 1px black;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding:4px;
+}
+.modal-delete-button-cancel{
+    cursor: pointer;
+    width: 80px;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #16975d 100%);
+    border: solid 1px black;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding:4px;
+}
+.ok-cancel{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
