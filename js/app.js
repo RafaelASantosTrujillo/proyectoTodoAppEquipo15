@@ -30,7 +30,13 @@ inputNewTask.placeholder = "New task...";
 inputNewTask.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
         event.preventDefault();
-        createTask(inputNewTask.value);
+        if (inputNewTask.value === "") {
+            alert("You must add text to the new task");
+        } else if (inputNewTask.value.length < 5) {
+            alert("Your task must be at least 5 chars");
+        } else {
+            createTask(inputNewTask.value);
+        }
     }
 });
 
