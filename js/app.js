@@ -77,6 +77,7 @@ function createTask(taskValue) {
     inputNewTask.value = "";
     var trFila = document.createElement("tr");
     var tdColumn1 = document.createElement("td");
+    tdColumn1.className = "td-checkbox"
 
     var checkBox = document.createElement("INPUT");
     checkBox.setAttribute("type", "checkbox");
