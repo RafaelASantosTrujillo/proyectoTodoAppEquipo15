@@ -17,5 +17,5 @@
 <h3>Algunos problemas</h3>
 <p>Las funciones de la aplicación que fueron más complicadas fueron las de "eliminar la tarea" y "marcar tarea como terminada". Esto debido a que no encontrabamos una manera fácil para identificar el renglón que se debía eliminar. Al final lo que decidimos hacer fue utilizar la propiedad "parentNode" de Javascript para partiendo del botón que disparó el click, buscar la fila que lo contiene y borrarla. De esta manera no tuvimos que borrar columna por columna. Para marcar la tarea como terminada utilizamos la misma propiedad. </p>
 
-### [Todo App](https://rafaelasantostrujillo.github.io/proyectoTodoAppEquipo15/ "Todo App en Github pages")
-### [Link del video](https://www.youtube.com/watch?v=ds5EMFagLpQ/ "Link del video")
+### [Todo App en Github pages](https://rafaelasantostrujillo.github.io/proyectoTodoAppEquipo15/ "Todo App en Github pages")
+### [Link del video](https://www.youtube.com/watch?v=nUP3CcTZICk/ "Link del video")
